@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/banda-test'
+  base: 'https://sergeygutovskiy.github.io/banda-test/'
 })
