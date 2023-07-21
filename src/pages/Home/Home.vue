@@ -42,9 +42,12 @@
         transform: translateX(-50%);
 
         padding: 24px;
+
+        white-space: nowrap;
         text-transform: uppercase;
         font-size: 24px;
         color: white;
+
         background-color: lightskyblue;
         border-radius: 6px;
     }

@@ -21,5 +21,9 @@
 
     .list-item {
         flex: calc(50% - 8px);
+
+        @media screen and (max-width: 768px) {
+            flex: 100%;
+        }
     }
 </style>

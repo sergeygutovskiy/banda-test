@@ -85,6 +85,10 @@
     .container {
         display: flex;
         gap: 32px;
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
+        }
     }
 
     .container__image {
@@ -141,6 +145,7 @@
         
         font-family: inherit;
         font-size: inherit;
+        text-align: start;
         color: black;
         
         background-color: transparent;
